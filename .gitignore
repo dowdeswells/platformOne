@@ -1,0 +1,44 @@
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# Ignore any logs
+*.log
+
+Ignore any trx files
+*.trx
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# Node generated files
+**/package-lock.json
+**/node_modules
+
+# Coverage report generated files
+**coverage.**
+**coverage/
